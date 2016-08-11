@@ -1,0 +1,241 @@
+/* MARK: General */
+
+body {
+	background-color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+.no-margin {
+	margin: 0px;
+}
+
+.placeholder {
+	min-height: 70px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-weight: 400;
+}
+
+p {
+	font-weight: 300;
+}
+
+li {
+	font-weight: 300;
+}
+
+.full-width-image {
+	width:100%;
+}
+
+.center-image {
+	display: block;
+	margin: 0 auto;
+}
+
+.navbar {
+	/*box-shadow: 0 1px 8px rgba(0,0,0,0.12), 0 1px 8px rgba(0,0,0,0.24);*/
+	box-shadow: 0 0px 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0);
+	border-bottom: 1px solid transparent;
+	font-weight: 400;
+	color:#000000;
+	background-color: #fff;
+}
+
+@media(max-width:767px){
+	.main-content h1 {
+		font-size: 35px;
+	}
+
+	.main-content p, 
+	.main-content li {
+		font-size: 15px;
+		line-height: 1.7em;
+	}
+
+	.container {
+		padding:6%;
+	}
+
+	.left-side {
+		padding-right: 0px;
+	}
+}
+
+@media(min-width:768px){
+	.main-content h1 {	
+		font-size: 38px;
+	}
+
+	.main-content p, 
+	.main-content li {
+		font-size: 15px;
+		line-height: 1.7em;
+	}
+
+	.container {
+		padding:4%;
+	}
+
+	.left-side {
+		padding-right: 0px;
+	}
+}
+
+@media(min-width:992px){
+	.mmain-content h1 {	
+		font-size: 40px;
+	}
+
+	.main-content p, 
+	.main-content li {
+		font-size: 18px;
+		line-height: 1.7em;
+	}
+
+	.container {
+		padding:4%;
+	}
+
+	.left-side {
+		padding-right: 40px;
+	}
+}
+
+@media(min-width:1200px){
+	.main-content h1 {
+		font-size: 40px;
+	}
+
+	.main-content p, 
+	.main-content li {
+		font-size: 18px;
+		line-height: 1.7em;
+	}
+
+	.container {
+		padding:4%;
+	}
+
+	.left-side {
+		padding-right: 40px;
+	}
+}
+
+/* MARK: footer */
+
+#footer.footer {
+	background-color: #f1f1f1;
+	min-height: 200px;
+}
+
+#footer img {
+	padding: 20px;
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+#footer .centered-content {
+	text-align: center;
+}
+
+#footer i {
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	padding-top: 40px;
+}
+
+#footer p {
+	padding: 10px;
+}
+
+#footer a {
+	color: #000;
+}
+
+/* MARK: Index */
+
+#home .center-image {
+	padding:5%;
+}
+
+/* MARK: About - home */
+
+#about .center-image {
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+/* MARK: Members - home */
+
+#members .member-card {
+	min-height: 450px;
+}
+
+#members .info-buttons {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+#members .title,
+#members .title img {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+/* MARK: Schedule - home */
+#schedule #script-warning {
+	display: none;
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	padding: 0 10px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	color: red;
+}
+
+#schedule #loading {
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#schedule #calendar {
+	margin: 40px auto;
+	padding: 0 10px;
+}
+
+/* MARK: Contact - home */
+
+#contact #head {
+	position: relative;
+}
+
+#contact #content-right {
+	margin: 2px;
+}
+
+#contact .span-tab {
+	padding: 0 80px;
+}
+
+/* MARK: - Home */
+
+#home .center {
+	text-align: center !important;
+}
+
