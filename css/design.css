@@ -13,6 +13,11 @@ body {
 	margin: 0px;
 }
 
+.small-margin {
+margin: 15px;
+
+}
+
 .placeholder {
 	min-height: 70px;
 	margin: 0px;
